@@ -1,0 +1,20 @@
+theme = "gruvbox"
+
+[editor]
+bufferline = "multiple"
+color-modes = true
+completion-trigger-len = 1
+auto-save = true
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.indent-guides]
+render = true
+character = "|"
+skip-levels = 1
+
+[keys.normal]
+"tab" = ":bn"
