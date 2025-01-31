@@ -18,3 +18,5 @@ skip-levels = 1
 
 [keys.normal]
 "tab" = ":bn"
+"S-tab" = ":bp"
+
